@@ -164,4 +164,4 @@ Pauses: Before and after the apology to give space for processing the apology.""
     """)
 
 if __name__ == "__main__":
-    app.launch(share=True)
+    app.launch(share=False, server_name="0.0.0.0", server_port=8888)
